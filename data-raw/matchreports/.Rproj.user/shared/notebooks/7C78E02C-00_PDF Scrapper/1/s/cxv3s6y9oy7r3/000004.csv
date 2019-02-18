@@ -1,0 +1,7 @@
+"0","    # Cleaning column 1"
+"0","      team.1.part.1 <- map(team.1, clean_col_1)"
+"0","      team.2.part.1 <- map(team.2, clean_col_1)"
+"0","      "
+"0","    # Example column 1 after cleaning"
+"0","    "
+"0","      team.1.part.1[[3]]"

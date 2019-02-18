@@ -1,0 +1,5 @@
+"0","      library(tabulizer)"
+"0","      library(stringr)"
+"0","      library(dplyr)"
+"0","      library(tidyr)"
+"0","      library(purrr)"

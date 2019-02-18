@@ -1,0 +1,114 @@
+season_id,league_gender,team_id,vbl_id,team_name
+1314,Men,1002,6913420,Berlin Recycling Volleys
+1314,Men,1003,6913335,CV Mitteldeutschland
+1314,Men,1004,6913306,Evivo Dueren
+1314,Men,1005,6913323,Generalli Haching
+1314,Men,1007,6913439,Moerser SC
+1314,Men,1011,6913349,TV Ingersoll Buehl
+1314,Men,1012,6913405,TV Rottenburg
+1314,Men,1014,6913376,VC Dresden
+1314,Men,1016,6913363,VfB Friedrichshafen
+1314,Men,1018,6913391,VSG Coburg/Grub
+1415,Men,1002,8750498,Berlin Recycling Volleys
+1415,Men,1003,8750585,CV Mitteldeutschland
+1415,Men,1004,8750611,SWD Powervolleys Dueren
+1415,Men,1008,8750099,Netzhoppers KW-Bestensee
+1415,Men,1009,8750048,SVG Lueneburg
+1415,Men,1010,8749876,TSV Herrsching
+1415,Men,1011,8750571,TV Ingersoll Buehl
+1415,Men,1012,8750514,TV Rottenburg
+1415,Men,1015,8749935,VCO Berlin
+1415,Men,1016,8750558,VfB Friedrichshafen
+1415,Men,1018,8750529,VSG Coburg/Grub
+1516,Men,1002,21637416,Berlin Recycling Volleys
+1516,Men,1003,21637485,CV Mitteldeutschland
+1516,Men,1004,21637531,SWD Powervolleys Dueren
+1516,Men,1008,21637456,Netzhoppers KW-Bestensee
+1516,Men,1009,21637553,SVG Lueneburg
+1516,Men,1010,21637399,TSV Herrsching
+1516,Men,1011,21637515,TV Ingersoll Buehl
+1516,Men,1012,21637469,TV Rottenburg
+1516,Men,1013,21636681,United Volleys RheinMain
+1516,Men,1016,21637570,VfB Friedrichshafen
+1516,Men,1018,21637499,VSG Coburg/Grub
+1617,Men,1001,42702877,Solingen Volleys
+1617,Men,1002,42703930,Berlin Recycling Volleys
+1617,Men,1004,42704012,SWD Powervolleys Dueren
+1617,Men,1008,42703848,Netzhoppers SolWo Koenigspark KW
+1617,Men,1009,42703875,SVG Lueneburg
+1617,Men,1010,42703949,TSV Herrsching
+1617,Men,1011,42703893,TV Ingersoll Buehl
+1617,Men,1012,42703979,TV Rottenburg
+1617,Men,1013,42703910,United Volleys RheinMain
+1617,Men,1015,42702839,VCO Berlin
+1617,Men,1016,42703965,VfB Friedrichshafen
+1718,Men,1001,58915731,Bergische Volleys
+1718,Men,1002,58915837,Berlin Recycling Volleys
+1718,Men,1004,58915703,SWD Powervolleys Dueren
+1718,Men,1006,58935033,Hypo Tirol AlpenVolleys Haching
+1718,Men,1008,58915664,Netzhoppers SolWo Koenigspark KW
+1718,Men,1009,58915858,SVG Lueneburg
+1718,Men,1010,58915758,TSV Herrsching
+1718,Men,1011,58915816,Volleyball Bisons Buehl
+1718,Men,1012,58915776,TV Rottenburg
+1718,Men,1013,58915680,United Volleys RheinMain
+1718,Men,1016,58915741,VfB Friedrichshafen
+1314,Women,2001,167288,Allianz MTV Stuttgart
+1314,Women,2002,167379,Dresdner SC
+1314,Women,2003,167311,Köpenicker SC
+1314,Women,2004,167476,Ladies in Black Aachen
+1314,Women,2005,167527,Rote Raben Vilsbiburg
+1314,Women,2006,167426,SC Potsdam
+1314,Women,2007,167359,SSC Schwerin
+1314,Women,2008,167499,USC Münster
+1314,Women,2009,167402,VC Wiesbaden
+1314,Women,2010,167553,VT Aurubis Hamburg
+1314,Women,2011,167333,Volleystars Thüringen
+1415,Women,2001,8750743,Allianz MTV Stuttgart
+1415,Women,2002,8750769,Dresdner SC
+1415,Women,2003,8750688,Köpenicker SC
+1415,Women,2004,8750784,Ladies in Black Aachen
+1415,Women,2005,8750801,Rote Raben Vilsbiburg
+1415,Women,2006,8750668,SC Potsdam
+1415,Women,2007,8750756,SSC Schwerin
+1415,Women,2008,8750706,USC Münster
+1415,Women,2009,8750650,VC Wiesbaden
+1415,Women,2010,8750727,VT Aurubis Hamburg
+1415,Women,2011,8750818,Volleystars Thüringen
+1415,Women,2012,8750285,VCO Berlin
+1516,Women,2001,21637813,Allianz MTV Stuttgart
+1516,Women,2002,21637780,Dresdner SC
+1516,Women,2003,21637692,Köpenicker SC
+1516,Women,2004,21637796,Ladies in Black Aachen
+1516,Women,2005,21637710,Rote Raben Vilsbiburg
+1516,Women,2006,21637729,SC Potsdam
+1516,Women,2007,21637767,SSC Schwerin
+1516,Women,2008,21637650,USC Münster
+1516,Women,2009,21637749,VC Wiesbaden
+1516,Women,2010,21637618,VT Aurubis Hamburg
+1516,Women,2011,21637676,Volleystars Thüringen
+1516,Women,2012,21637632,VCO Berlin
+1516,Women,2013,21637305,Nawaro Straubing
+1617,Women,2001,42703593,Allianz MTV Stuttgart
+1617,Women,2002,42703609,Dresdner SC
+1617,Women,2003,42703736,Köpenicker SC
+1617,Women,2004,42703717,Ladies in Black Aachen
+1617,Women,2005,42703766,Rote Raben Vilsbiburg
+1617,Women,2006,42703697,SC Potsdam
+1617,Women,2007,42703574,SSC Schwerin
+1617,Women,2008,42703641,USC Münster
+1617,Women,2009,42703785,VC Wiesbaden
+1617,Women,2011,42703667,Volleystars Thüringen
+1617,Women,2012,42703625,VCO Berlin
+1617,Women,2014,42703373,Schwarz-Weiss Erfurt
+1718,Women,2001,58915406,Allianz MTV Stuttgart
+1718,Women,2002,58915580,Dresdner SC
+1718,Women,2004,58915516,Ladies in Black Aachen
+1718,Women,2005,58915556,Rote Raben Vilsbiburg
+1718,Women,2006,58915384,SC Potsdam
+1718,Women,2007,58915474,SSC Schwerin
+1718,Women,2008,58915445,USC Münster
+1718,Women,2009,58915538,VC Wiesbaden
+1718,Women,2011,58915498,Volleystars Thüringen
+1718,Women,2012,58915365,VCO Berlin
+1718,Women,2014,58915427,Schwarz-Weiss Erfurt

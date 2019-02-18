@@ -1,0 +1,16 @@
+This folder contains all match reports which were problematic in the scrapping process, i.e., reports where tabulizer failed to extract the data.
+
+These matches are:
+
+Men, 13/14, 1002
+Men, 13/14, 1014
+Men, 13/14, 1026
+Men, 13/14, 1044
+Men, 16/17, 1025
+
+Women, 15/16, 2000
+Women, 15/16, 2005
+Women, 15/16, 2051
+Women, 15/16, 2150
+Women, 15/16, 2155
+

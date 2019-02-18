@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"setwd(\"~/Women2017-18/\")","line_number":0}],"message":"Error in setwd(\"~/Women2017-18/\") : cannot change working directory\n"}

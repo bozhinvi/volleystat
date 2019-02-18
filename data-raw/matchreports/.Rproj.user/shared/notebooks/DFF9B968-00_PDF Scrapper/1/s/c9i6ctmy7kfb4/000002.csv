@@ -1,0 +1,19 @@
+"0","    # Vector with file names
+      nm.vec <- as.list(list.files(pattern = ""*.pdf""))
+    
+    # Scrap Teams from PDFs
+  
+      team.1 <- map(nm.vec, match_stat, position = 1)
+      team.2 <- map(nm.vec, match_stat, position = 2)
+  
+    # Attaching match ids as names for the list elements
+      
+      match.id <- str_remove(nm.vec, "".pdf"")
+      names(team.1) <- match.id
+      names(team.2) <- match.id
+    # Example of an exported data.frame
+      team.1[[1]]
+"
+"1","data frame with 0 columns and 0 rows"
+"1","
+"

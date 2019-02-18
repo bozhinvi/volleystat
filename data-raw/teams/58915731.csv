@@ -1,0 +1,16 @@
+"Nachname";"Vorname";"Titel";"Titel Vorname Nachname";"Titel Nachname, Vorname";"Größe";"Geschlecht";"Geburtsdatum";"Trikot";"Staatsangehörigkeit";"NAT";"Position/Funktion Offizieller";"spielberechtigt";
+"Bene";"Robert";"";"Robert Bene";"Bene, Robert";"175";"männlich";"17.10.1995";"13";"Ungarn";"HU";"Libero";"Nein";
+"Benz";"Andrew";"";"Andrew Benz";"Benz, Andrew";"201";"männlich";"21.04.1994";"1";"Vereinigte Staaten von Amerika";"US";"Mittelblock";"Nein";
+"Boehm";"Samuel";"";"Samuel Boehm";"Boehm, Samuel";"192";"männlich";"04.03.1988";"4";"Australien";"AU";"Diagonal";"Nein";
+"Gies";"Oliver";"";"Oliver Gies";"Gies, Oliver";"197";"männlich";"28.06.1985";"3";"Deutschland";"DE";"Außenangriff";"Nein";
+"Hummes Specht ";"Iurgen";"";"Iurgen Hummes Specht ";"Hummes Specht , Iurgen";"201";"männlich";"21.12.1991";"10";"Brasilien";"BR";"Außenangriff";"Nein";
+"Lipscombe";"Gerrard";"";"Gerrard Lipscombe";"Lipscombe, Gerrard";"188";"männlich";"04.06.1993";"5";"Australien";"AU";"Außenangriff";"Nein";
+"Rumpunen";"Ossi";"";"Ossi Rumpunen";"Rumpunen, Ossi";"187";"männlich";"18.04.1989";"8";"Finnland";"FI";"Außenangriff";"Nein";
+"Tille";"Johannes";"";"Johannes Tille";"Tille, Johannes";"184";"männlich";"07.05.1997";"6";"Deutschland";"DE";"Zuspiel";"Nein";
+"van Werkhoven";"Mart";"";"Mart van Werkhoven";"van Werkhoven, Mart";"206";"männlich";"11.12.1991";"9";"Niederlande";"NL";"Mittelblock";"Nein";
+"Zoodsma";"Rutger";"";"Rutger Zoodsma";"Zoodsma, Rutger";"206";"männlich";"16.07.1995";"7";"Niederlande";"NL";"Mittelblock";"Nein";
+"Isacsson";"Johann";"";"Johann Isacsson";"Isacsson, Johann";"";"männlich";"13.03.1962";"";"Schweden";"SE";"Trainer";"Nein";
+"Gies";"Oliver";"";"Oliver Gies";"Gies, Oliver";"197";"männlich";"28.06.1985";"";"Deutschland";"DE";"Co-Trainer";"Nein";
+"Weindl";"Robert";"";"Robert Weindl";"Weindl, Robert";"180";"männlich";"19.03.1969";"";"Deutschland";"DE";"Arzt";"Ja";
+"Oberdick";"Lars";"";"Lars Oberdick";"Oberdick, Lars";"";"männlich";"26.06.1990";"";"Deutschland";"DE";"Physiotherapeut";"Ja";
+"Jülicher";"Felix";"";"Felix Jülicher";"Jülicher, Felix";"";"männlich";"05.10.1995";"";"Deutschland";"DE";"Statistiker";"Ja";
