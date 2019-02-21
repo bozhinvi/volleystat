@@ -19,7 +19,7 @@ provides the following data tables.
 
 ## Installation
 
-You can install volleystat from github with:
+You can install the development version of volleystat from github with:
 
 ``` r
 devtools::install_github("bozhinvi/volleystat")
