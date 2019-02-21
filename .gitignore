@@ -1,2 +1,4 @@
 
 *.pdf
+.Rproj.user
+inst/doc

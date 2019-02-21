@@ -442,18 +442,22 @@
 
      # Split dataset into Staff and Players
 
-     players <- df_teams[df_teams$role == "Staff",] %>%
+     staff <- df_teams[df_teams$role == "Staff",] %>%
      select(-role, -shirt_number, -height, -player_id) %>%
      mutate(position = droplevels(position),
-            nationality = droplevels(nationality))
+            nationality = droplevels(nationality)) %>%
+     mutate(firstname = iconv(firstname, to = "utf8"),
+            lastname = iconv(lastname, to = "utf8"))
 
-     save(players, file = "./data/staff.rda")
+     save(staff, file = "./data/staff.rda")
 
      players <- df_teams[df_teams$role != "Staff",] %>%
      select(-role, league_gender, season_id, team_id, team_name,
             player_id, shirt_number, position, firstname, lastname,
             gender, birthdate, height, nationality) %>%
      mutate(position = droplevels(position),
-            nationality = droplevels(nationality))
+            nationality = droplevels(nationality)) %>%
+     mutate(firstname = iconv(firstname, to = "utf8"),
+            lastname = iconv(lastname, to = "utf8"))
 
-     save(staff, file = "./data/players.rda")
+     save(players, file = "./data/players.rda")

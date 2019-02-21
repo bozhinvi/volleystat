@@ -2,16 +2,21 @@ Package: volleystat
 Type: Package
 Title: Detailed statistcs on Volleyball
 Version: 0.1.0
-Author: Viktor Bozhinov
+Authors@R: person("Viktor", "Bozhinov", email = "mail@viktor-bozhinov.de",
+  role = c("aut", "cre"))
 Maintainer: Viktor Bozhinov <mail@viktor-bozhinov.de>
 Description: This packages provides data on match statistics
     of the German Volleyball Bundesliga (seasons 2013/2014 to 2017/2018).
+URL: http://github.com/bozhinvi/volleystat
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Depends: R (>= 2.10)
+Imports: tibble
 Suggests: dplyr,
     tidyr,
     knitr,
-    rmarkdown
+    rmarkdown,
+    ggplot2
 VignetteBuilder: knitr
