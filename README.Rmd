@@ -14,13 +14,19 @@ knitr::opts_chunk$set(
 
 # volleystat
 
-volleystat provides detailed statistics on volleyball matches on team and player level.
+This packages contains detailed statistics on volleyball matches on team and player level for the seasons 2013/14 
+to 2017/2018 in Germany. It provides the following data tables.
+
+- `matches` contains information on match level for home and away teams.
+- `sets` contains information on match-set level for home and away teams.
+- `matchstats` contains information on mathc-player level for home and away teams
+- `players` contains information on all teams on seasonal level.
+- `staff` contains information on trainer tea, of all teams on seasonal level.
 
 ## Installation
 
 You can install volleystat from github with:
 
 ```{r gh-installation, eval = FALSE}
-# install.packages("devtools")
 devtools::install_github("bozhinvi/volleystat")
 ```
