@@ -8,7 +8,8 @@ Maintainer: Viktor Bozhinov <mail@viktor-bozhinov.de>
 Description: This packages provides data on match statistics
     of the German volleyball first divisian league (seasons 2013/2014 to 2017/2018).
 URL: http://github.com/bozhinvi/volleystat
-License: GPL-2
+BugReports: https://github.com/bozhinvi/volleystat/issues
+License: CC0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
