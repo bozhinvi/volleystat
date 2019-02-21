@@ -11,7 +11,7 @@ provides the following data tables.
     teams.
   - `sets` contains information on match-set level for home and away
     teams.
-  - `matchstats` contains information on mathc-player level for home and
+  - `matchstats` contains information on match-player level for home and
     away teams
   - `players` contains information on all teams on seasonal level.
   - `staff` contains information on trainer tea, of all teams on

@@ -1,6 +1,8 @@
 
 *.pdf
+*.csv
 .RData
 .Rhistory
+.DS_Store
 .Rproj.user
 inst/doc

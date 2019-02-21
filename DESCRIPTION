@@ -1,12 +1,12 @@
 Package: volleystat
 Type: Package
-Title: Detailed statistcs on Volleyball
+Title: Detailed Statistcs on Volleyball
 Version: 0.1.0
 Authors@R: person("Viktor", "Bozhinov", email = "mail@viktor-bozhinov.de",
   role = c("aut", "cre"))
 Maintainer: Viktor Bozhinov <mail@viktor-bozhinov.de>
 Description: This packages provides data on match statistics
-    of the German Volleyball Bundesliga (seasons 2013/2014 to 2017/2018).
+    of the German volleyball first divisian league (seasons 2013/2014 to 2017/2018).
 URL: http://github.com/bozhinvi/volleystat
 License: GPL-2
 Encoding: UTF-8
