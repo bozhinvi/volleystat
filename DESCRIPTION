@@ -1,12 +1,15 @@
 Package: volleystat
 Type: Package
-Title: Detailed Statistcs on Volleyball
+Title: Detailed Statistics on Volleyball
 Version: 0.1.0
 Authors@R: person("Viktor", "Bozhinov", email = "mail@viktor-bozhinov.de",
   role = c("aut", "cre"))
 Maintainer: Viktor Bozhinov <mail@viktor-bozhinov.de>
 Description: This packages provides data on match statistics
-    of the German volleyball first divisian league (seasons 2013/2014 to 2017/2018).
+    of the German volleyball first division league (seasons 2013/2014 to 2017/2018). The data has been collected from 
+    the official volleyball first division homepage (www.volleyball-bundesliga.de) and contains information on
+    teams, staff, sets, matches, and player-in-match statistics (extracted automatically using tabulizer from the PDFs of
+    the official match reports).
 URL: http://github.com/bozhinvi/volleystat
 BugReports: https://github.com/bozhinvi/volleystat/issues
 License: CC0

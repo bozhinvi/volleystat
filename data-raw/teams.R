@@ -5,10 +5,13 @@
   library(readr)
   library(purrr)
   library(countrycode)
+  #library(stringi)
+  library(textclean)
+  library(tools)
 
 #### Load team list #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #####
 
-  df_teamlist <- read_csv("./data-raw/teams/teams.csv")
+  df_teamlist <- read_csv2("./data-raw/teams/teams.csv")
 
 #### Download *.csv team files from VBL website #### #### #### #### #### #### #### #### #### #### #### #### #### #### ##
 
@@ -41,6 +44,7 @@
 
   df_teams <- as_tibble(df_teams)
 
+
 #### Select relevant columns and join teams and remove vbl.id #### #### #### #### #### #### #### #### #### #### #### ###
 
   df_teams <-  df_teams %>%
@@ -59,12 +63,45 @@
 
   # Firstname
 
-    df_teams[df_teams$firstname == "Bart?omiej",]$firstname  <- "Bartłomiej"
+    df_teams[df_teams$firstname == "Bart?omiej",]$firstname  <- "Bartlomiej"
 
   # Lastname
 
-    df_teams[df_teams$lastname == "Bo??d?",]$lastname        <- "Bołądź"
-    df_teams[df_teams$lastname == "Sláde?ek",]$lastname      <- "Sládeček"
+    df_teams[df_teams$lastname == "Bo??d?",]$lastname        <- "Bolqdzl"
+    df_teams[df_teams$lastname == "Sláde?ek",]$lastname      <- "Sladecek"
+
+  # Remove non-ASCII codes
+
+    showNonASCII(df_teams$lastname)
+
+    df_teams$lastname <- gsub("ü", "ue", df_teams$lastname)
+    df_teams$lastname <- gsub("ö", "oe", df_teams$lastname)
+    df_teams$lastname <- gsub("ß", "ss", df_teams$lastname)
+    df_teams$lastname <- gsub("ä", "ae", df_teams$lastname)
+    df_teams$lastname <- gsub("á", "a",  df_teams$lastname)
+    df_teams$lastname <- gsub("é", "e",  df_teams$lastname)
+    df_teams$lastname <- gsub("ó", "o",  df_teams$lastname)
+    df_teams$lastname <- gsub("ú", "u",  df_teams$lastname)
+    df_teams$lastname <- gsub("ø", "oe",  df_teams$lastname)
+    df_teams$lastname <- gsub("", "s",  df_teams$lastname)
+
+    df_teams$lastname <- replace_non_ascii(df_teams$lastname)
+
+    showNonASCII(df_teams$firstname)
+
+    df_teams$firstname <- gsub("ü", "ue",  df_teams$firstname)
+    df_teams$firstname <- gsub("ö", "oe",  df_teams$firstname)
+    df_teams$firstname <- gsub("ß", "ss",  df_teams$firstname)
+    df_teams$firstname <- gsub("ä", "ae",  df_teams$firstname)
+    df_teams$firstname <- gsub("á", "a",   df_teams$firstname)
+    df_teams$firstname <- gsub("é", "e",   df_teams$firstname)
+    df_teams$firstname <- gsub("ó", "o",   df_teams$firstname)
+    df_teams$firstname <- gsub("ú", "u",   df_teams$firstname)
+    df_teams$firstname <- gsub("ø", "oe",  df_teams$firstname)
+    df_teams$firstname <- gsub("Ó", "O",   df_teams$firstname)
+    df_teams$firstname <- gsub("ë", "e",   df_teams$firstname)
+    df_teams$firstname <- gsub("", "s",   df_teams$firstname)
+
 
   # Gender
 
@@ -448,6 +485,7 @@
             nationality = droplevels(nationality)) %>%
      mutate(firstname = iconv(firstname, to = "utf8"),
             lastname = iconv(lastname, to = "utf8"))
+
 
      save(staff, file = "./data/staff.rda")
 

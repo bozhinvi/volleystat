@@ -21,11 +21,11 @@ knitr::opts_chunk$set(
   library(dplyr)
   library(ggplot2)
 
-  load("../data/matches.rda")
-  load("../data/players.rda")
-  load("../data/matchstats.rda")
-  load("../data/staff.rda")
-  load("../data/sets.rda")
+  data(matches, package = "volleystat")
+  data(players, package = "volleystat")
+  data(matchstats, package = "volleystat")
+  data(staff, package = "volleystat")
+  data(sets, package = "volleystat")
 
 ```
 
