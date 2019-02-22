@@ -27,7 +27,8 @@
 #'
 #' @section sets:
 #' A dataset containing match-player level statistics of the German first division volleyball league for each match and
-#' each season starting in 2013/2014 and ending in 2017/2018.
+#' each season starting 2013/2014 and ending 2017/2018.
+#'
 #'
 #' @docType package
 #' @name volleystat
