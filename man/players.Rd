@@ -7,12 +7,12 @@
 \format{Data frame with 1517 rows and 13 columns.
 \describe{
   \item{league_gender}{Men or women's league.}
-  \item{season_id}{ID for each season unqiue within league_gender. It consists of the last two digits of the season
+  \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
   years, e.g., the season_id of season 2014/2015 equals 1415.}
   \item{team_id}{Team identifier which is unique across all teams and seasons.}
   \item{team_name}{Official name of the team. Note that VCO Berlin has a team in men's and women's league.}
   \item{player_id}{Player identifier which is unique within a team in a season. This identifier equals to the
-  shirt number of the player. Howeber, in cases where more than one player has the same shirt number, the identifier
+  shirt number of the player. However, in cases where more than one player has the same shirt number, the identifier
   is replaced by a 3-digit number starting at 100.}
   \item{shirt_number}{Official shirt number, not unique within teams (see player_id).}
   \item{position}{Player's specialization}

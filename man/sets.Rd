@@ -7,11 +7,11 @@
 \format{Data frame with 10374 rows and 9 columns.
 \describe{
   \item{league_gender}{Men or women's league.}
-  \item{season_id}{ID for each season unqiue within league_gender. It consists of the last two digits of the season
+  \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
   years, e.g., the season_id of season 2014/2015 equals 1415.}
   \item{match_id}{Official VBL match id. Unique within seasons.}
   \item{match}{Factor variable identifying whether observation is from the home team's perspective or
-  from the away team's perspecitve.}
+  from the away team's perspective.}
   \item{team_id}{Team identifier which is unique across all teams and seasons.}
   \item{team_name}{Official name of the team. Note that VCO Berlin has a team in men's and women's league.}
   \item{set}{Set identifier.}
@@ -28,7 +28,7 @@ sets
 \description{
 A dataset containing all matches of the German first division volleyball league for each season on set level.
 starting in 2013/2014 and ending in 2017/2018. Note that all sets are included twice in the
-dataset, i.e., from the perspecive of the homa team and from the persepcitve of the away team.
+dataset, i.e., from the perspective of the home team and from the perspective of the away team.
 }
 \examples{
 matchstats

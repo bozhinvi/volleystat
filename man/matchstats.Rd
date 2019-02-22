@@ -7,18 +7,18 @@
 \format{Data frame with 26692 rows and 23 columns.
 \describe{
   \item{league_gender}{Men or women's league.}
-  \item{season_id}{ID for each season unqiue within league_gender. It consists of the last two digits of the season
+  \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
   years, e.g., the season_id of season 2014/2015 equals 1415.}
   \item{match_id}{Official VBL match id. Unique within seasons.}
   \item{team_id}{Team identifier which is unique across all teams and seasons.}
   \item{player_id}{Player identifier which is unique within a team in a season. This identifier equals to the
-  shirt number of the player. Howeber, in cases where more than one player has the same shirt number, the identifier
+  shirt number of the player. However, in cases where more than one player has the same shirt number, the identifier
   is replaced by a 3-digit number starting at 100.}
   \item{shirt_number}{Official shirt number, not unique within teams (see player_id).}
-  \item{vote}{Score computed accroding to the DataVolley settings. NA if not reported as numeric in the matchreport.}
+  \item{vote}{Score computed according to the DataVolley settings. NA if not reported as numeric in the match report.}
   \item{pt_tot}{Total points scored.}
   \item{pt_bp}{Total break points scored.}
-  \item{pt_profloss}{Won minus lost points. More precisely, this variable i scomputed accroding to the following
+  \item{pt_profloss}{Won minus lost points. More precisely, this variable is computed according to the following
   equation: serv_pt + att_pt + blo_pt - serv_err - rec_err - att_err - att_blo.}
   \item{serv_tot}{Total number of serves.}
   \item{ser_err}{Number of serving errors.}
@@ -30,8 +30,8 @@
   \item{att_tot}{Number of total attacks.}
   \item{att_err}{Number of failed attacks.}
   \item{att_blo}{Number of blocked attacks.}
-  \item{att_pt}{Number of succesful attacks.}
-  \item{att_per}{Share of succesful attacks.}
+  \item{att_pt}{Number of successful attacks.}
+  \item{att_per}{Share of successful attacks.}
   \item{blo_pt}{Number of successful block.}
 }}
 \source{
