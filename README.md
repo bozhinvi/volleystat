@@ -19,7 +19,13 @@ provides the following data tables.
 
 ## Installation
 
-You can install the development version of volleystat from github with:
+Install the released version from CRAN:
+
+``` r
+install.packages("volleystat")
+```
+
+Install the development version of volleystat from github with:
 
 ``` r
 devtools::install_github("bozhinvi/volleystat")
