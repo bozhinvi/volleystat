@@ -2,9 +2,9 @@
 #'
 #' A dataset containing attributes of all players
 #' in the German first division volleyball league for each season
-#' starting in 2013/2014 and ending in 2017/2018.
+#' starting in 2013/2014 and ending in 2018/2019.
 #'
-#' @format Data frame with 1517 rows and 13 columns.
+#' @format Data frame with 1853 rows and 13 columns.
 #' \describe{
 #'   \item{league_gender}{Men or women's league.}
 #'   \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
@@ -32,9 +32,9 @@
 #'
 #' A dataset containing attributes of all staff members of teams
 #' in the German first division volleyball league for each season
-#' starting in 2013/2014 and ending in 2017/2018.
+#' starting in 2013/2014 and ending in 2018/2019.
 #'
-#' @format A data frame with 983 rows and 10 variables:
+#' @format A data frame with 1214 rows and 10 variables:
 #' \describe{
 #'   \item{league_gender}{Men or women's league.}
 #'   \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
@@ -56,10 +56,10 @@
 #' Matches data
 #'
 #' A dataset containing all matches of the German first division volleyball league for each season
-#' starting in 2013/2014 and ending in 2017/2018. Note that all matches are included twice in the
+#' starting in 2013/2014 and ending in 2018/2019. Note that all matches are included twice in the
 #' dataset, i.e., from the perspective of the home team and from the perspective of the away team.
 #'
-#' @format Data frame with 2778 rows and 12 columns.
+#' @format Data frame with 3392 rows and 12 columns.
 #' \describe{
 #'   \item{league_gender}{Men or women's league.}
 #'   \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
@@ -84,10 +84,10 @@
 #' Sets data
 #'
 #' A dataset containing all matches of the German first division volleyball league for each season on set level.
-#' starting in 2013/2014 and ending in 2017/2018. Note that all sets are included twice in the
+#' starting in 2013/2014 and ending in 2018/2019. Note that all sets are included twice in the
 #' dataset, i.e., from the perspective of the home team and from the perspective of the away team.
 #'
-#' @format Data frame with 10374 rows and 9 columns.
+#' @format Data frame with 12660 rows and 9 columns.
 #' \describe{
 #'   \item{league_gender}{Men or women's league.}
 #'   \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
@@ -109,9 +109,9 @@
 #' Matchstats data
 #'
 #' A dataset containing match-player level statistics of the German first division volleyball league for each match and
-#' each season starting in 2013/2014 and ending in 2017/2018.
+#' each season starting in 2013/2014 and ending in 2018/2019.
 #'
-#' @format Data frame with 26692 rows and 23 columns.
+#' @format Data frame with 32755 rows and 23 columns.
 #' \describe{
 #'   \item{league_gender}{Men or women's league.}
 #'   \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
@@ -139,10 +139,52 @@
 #'   \item{att_blo}{Number of blocked attacks.}
 #'   \item{att_pt}{Number of successful attacks.}
 #'   \item{att_per}{Share of successful attacks.}
-#'   \item{blo_pt}{Number of successful block.}
+#'   \item{blo_pt}{Number of successful blocks.}
 #' }
 #' @source \url{https://www.volleyball-bundesliga.de/cms/home/1blf/1blf_archiv/1blf_tabellen_ergebnisse.xhtml}
 #'         \url{https://www.volleyball-bundesliga.de/cms/home/1blm/1blm_archiv/1blm_tabellen_ergebnisse.xhtml}
 #' @examples matchstats
 "matchstats"
 
+#' Match adresses data
+#'
+#' A dataset containing name, adress, and coordinates of the gym of each match in the German first division volleyball league between
+#' 2013/2014 and ending in 2018/2019.
+#'
+#' @format Data frame with 1718 rows and 6 columns.
+#' \describe{
+#'   \item{league_gender}{Men or women's league.}
+#'   \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
+#'   years, e.g., the season_id of season 2014/2015 equals 1415.}
+#'   \item{match_id}{Official VBL match id. Unique within seasons.}
+#'   \item{gym}{Official name of arena.}
+#'   \item{adress}{ZIP code and city.}
+#'   \item{lon}{Longitude of arena.}
+#'   \item{lat}{Latitude of arena.}
+#' }
+#' @source \url{https://www.volleyball-bundesliga.de/cms/home/1blf/1blf_clubsspieler/1blf_spielhallen.xhtml}
+#'         \url{https://www.volleyball-bundesliga.de/cms/home/1blm/1blm_clubsspieler/1blm_spielhallen.xhtml}
+#' @examples match_adresses
+"match_adresses"
+
+#' Team adresses data
+#'
+#' A dataset containing name, adress, and coordinates of the home gym of each team in the German first division volleyball league between
+#' 2013/2014 and ending in 2018/2019.
+#'
+#' @format Data frame with 137 rows and 8 columns.
+#' \describe{
+#'   \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
+#'   years, e.g., the season_id of season 2014/2015 equals 1415.}
+#'   \item{league_gender}{Men or women's league.}
+#'   \item{team_id}{Team identifier which is unique across all teams and seasons.}
+#'   \item{team_name}{Official name of the team. Note that VCO Berlin has a team in men's and women's league.}
+#'   \item{gym_adress}{ZIP code and city.}
+#'   \item{max_spectator}{Maximum capacity}
+#'   \item{lon}{Longitude of arena.}
+#'   \item{lat}{Latitude of arena.}
+#' }
+#' @source \url{https://www.volleyball-bundesliga.de/cms/home/1blf/1blf_clubsspieler/1blf_spielhallen.xhtml}
+#'         \url{https://www.volleyball-bundesliga.de/cms/home/1blm/1blm_clubsspieler/1blm_spielhallen.xhtml}
+#' @examples team_adresses
+"team_adresses"

@@ -87,7 +87,10 @@
     mutate(problem = serv_pt + att_pt + blo_pt - pt_tot) %>%
     filter(problem != 0) %>%
     arrange(league_gender, season_id, match_id, player_id) %>%
-    distinct(league_gender, season_id, match_id)
+    distinct(league_gender, season_id, match_id, .keep_all = TRUE)
+
+    # Remove observations with Trainer in 1819 season
+    df <- df %>% filter(str_detect(player_name, "Trainer[:alpha:]{1,}") == FALSE)
 
   # att_per = att_pt/att_tot
 
@@ -115,6 +118,7 @@
     matchstats <- df %>%
     select(league_gender, season_id, match_id, team_id, player_id, everything(), -player_name)
 
-    save(matchstats, file = "../../data/matchstats.rda")
+    #save(matchstats, file = "../../data/matchstats.rda")
+    devtools::use_data(matchstats, matchstats, overwrite = TRUE)
 
 ########################################################################################################################

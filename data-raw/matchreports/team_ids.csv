@@ -24,6 +24,7 @@ Men;SWD powervo;1004
 Men;SWD powervolleys;1004
 Men;SWD powervolleys D;1004
 Men;TSV Herrsch;1010
+Men;WWK Volleys;1010
 Men;TSV Herrsching;1010
 Men;TV Ingersoll Bühl;1011
 Men;TV Rottenbu;1012
@@ -44,9 +45,11 @@ Women;Dresdner SC;2002
 Women;Köpenicker SC;2003
 Women;Köpenicker SC B;2003
 Women;Ladies in B;2004
+Women;Ladies in b;2004
 Women;Ladies in black A;2004
 Women;Ladies in Black A;2004
 Women;NawaRo Straubing;2013
+Women;NawaRo S;2013
 Women;Rote Raben;2005
 Women;Rote Raben V;2005
 Women;SC Potsdam;2006
@@ -67,3 +70,5 @@ Women;VfB Suhl L;2011
 Women;VfB Suhl LOTTO T;2011
 Women;VolleyStars T;2011
 Women;VT Aurubis H;2010
+Men;HELIOS G;1019
+Women;VC Olympia;2012

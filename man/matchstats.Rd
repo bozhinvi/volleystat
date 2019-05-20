@@ -4,7 +4,7 @@
 \name{matchstats}
 \alias{matchstats}
 \title{Matchstats data}
-\format{Data frame with 26692 rows and 23 columns.
+\format{Data frame with 32755 rows and 23 columns.
 \describe{
   \item{league_gender}{Men or women's league.}
   \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
@@ -32,7 +32,7 @@
   \item{att_blo}{Number of blocked attacks.}
   \item{att_pt}{Number of successful attacks.}
   \item{att_per}{Share of successful attacks.}
-  \item{blo_pt}{Number of successful block.}
+  \item{blo_pt}{Number of successful blocks.}
 }}
 \source{
 \url{https://www.volleyball-bundesliga.de/cms/home/1blf/1blf_archiv/1blf_tabellen_ergebnisse.xhtml}
@@ -43,7 +43,7 @@ matchstats
 }
 \description{
 A dataset containing match-player level statistics of the German first division volleyball league for each match and
-each season starting in 2013/2014 and ending in 2017/2018.
+each season starting in 2013/2014 and ending in 2018/2019.
 }
 \examples{
 matchstats

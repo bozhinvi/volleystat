@@ -141,7 +141,7 @@ summarize(obs = n(),
 
 # Players data
 
-The players dataset contains four iidentifiers which can be used to link it to the other datasets, e.g., the matches
+The players dataset contains four identifiers which can be used to link it to the other datasets, e.g., the matches
 dataset and the matchstats dataset:
 
 - season_id

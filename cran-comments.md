@@ -4,6 +4,13 @@
 * Ubuntu Linux 16.04 LTS, R-release, GCC
 * win-builder (devel and release)
 
+## Resubmission
+This is a resubmission. In this version I have:
+
+* corrected a wrong team_id in two of the datasets in the package.
+* updated data to the season 2018/2019.
+* added datasets on with adresses on teams and matches.
+
 ## R CMD check results
 There were no ERRORs, NOTEs or WARNINGs.
 

@@ -14,15 +14,28 @@
 
 ########################################################################################################################
 
+  # # Download of match reports
+  #
+  #   for (i in 1000:1600){
+  #
+  #     try(download.file(
+  #       paste0("http://live.volleyball-bundesliga.de/2018-19/Men/", i, ".pdf"),
+  #       paste0("./data-raw/matchreports/Men2018-19/", i,".pdf")),
+  #       silent = TRUE)
+  #
+  #   }
+
+########################################################################################################################
+
   # Set season WD
 
-    setwd("./data-raw/matchreports/Women2017-18")
+    setwd("./data-raw/matchreports/Men2018-19")
 
   # Set season name
 
-    filename      <- "MATCHSTAT_WOMEN_1718.csv" # Set file name which is exported in parent directory
-    league_gender <- "Women"                    # Set league.gender to Men or Women
-    season_id     <- "1718"                     # Set season.id
+    filename      <- "MATCHSTAT_MEN_1819.csv" # Set file name which is exported in parent directory
+    league_gender <- "Men"                    # Set league.gender to Men or Women
+    season_id     <- "1819"                     # Set season.id
 
 ########################################################################################################################
 

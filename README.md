@@ -16,16 +16,14 @@ provides the following data tables.
   - `players` contains information on all teams on seasonal level.
   - `staff` contains information on trainer tea, of all teams on
     seasonal level.
+  - `match_adresses` contains name and adress of the gym for each match
+    along with coordinates.
+  - `team_adresses` contains name and adress of the home gym of each
+    team in each season along with coordinates.
 
 ## Installation
 
-Install the released version from CRAN:
-
-``` r
-install.packages("volleystat")
-```
-
-Install the development version of volleystat from github with:
+You can install volleystat from github with:
 
 ``` r
 devtools::install_github("bozhinvi/volleystat")

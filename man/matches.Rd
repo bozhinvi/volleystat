@@ -4,7 +4,7 @@
 \name{matches}
 \alias{matches}
 \title{Matches data}
-\format{Data frame with 2778 rows and 12 columns.
+\format{Data frame with 3392 rows and 12 columns.
 \describe{
   \item{league_gender}{Men or women's league.}
   \item{season_id}{ID for each season unique within league_gender. It consists of the last two digits of the season
@@ -30,7 +30,7 @@ matches
 }
 \description{
 A dataset containing all matches of the German first division volleyball league for each season
-starting in 2013/2014 and ending in 2017/2018. Note that all matches are included twice in the
+starting in 2013/2014 and ending in 2018/2019. Note that all matches are included twice in the
 dataset, i.e., from the perspective of the home team and from the perspective of the away team.
 }
 \examples{

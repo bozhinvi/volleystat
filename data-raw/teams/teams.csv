@@ -1,114 +1,138 @@
-season_id;league_gender;team_id;vbl_id;team_name
-1314;Men;1002;6913420;Berlin Recycling Volleys
-1314;Men;1003;6913335;CV Mitteldeutschland
-1314;Men;1004;6913306;Evivo Dueren
-1314;Men;1005;6913323;Generalli Haching
-1314;Men;1007;6913439;Moerser SC
-1314;Men;1011;6913349;TV Ingersoll Buehl
-1314;Men;1012;6913405;TV Rottenburg
-1314;Men;1014;6913376;VC Dresden
-1314;Men;1016;6913363;VfB Friedrichshafen
-1314;Men;1018;6913391;VSG Coburg/Grub
-1415;Men;1002;8750498;Berlin Recycling Volleys
-1415;Men;1003;8750585;CV Mitteldeutschland
-1415;Men;1004;8750611;SWD Powervolleys Dueren
-1415;Men;1008;8750099;Netzhoppers KW-Bestensee
-1415;Men;1009;8750048;SVG Lueneburg
-1415;Men;1010;8749876;TSV Herrsching
-1415;Men;1011;8750571;TV Ingersoll Buehl
-1415;Men;1012;8750514;TV Rottenburg
-1415;Men;1015;8749935;VCO Berlin
-1415;Men;1016;8750558;VfB Friedrichshafen
-1415;Men;1018;8750529;VSG Coburg/Grub
-1516;Men;1002;21637416;Berlin Recycling Volleys
-1516;Men;1003;21637485;CV Mitteldeutschland
-1516;Men;1004;21637531;SWD Powervolleys Dueren
-1516;Men;1008;21637456;Netzhoppers KW-Bestensee
-1516;Men;1009;21637553;SVG Lueneburg
-1516;Men;1010;21637399;TSV Herrsching
-1516;Men;1011;21637515;TV Ingersoll Buehl
-1516;Men;1012;21637469;TV Rottenburg
-1516;Men;1013;21636681;United Volleys RheinMain
-1516;Men;1016;21637570;VfB Friedrichshafen
-1516;Men;1018;21637499;VSG Coburg/Grub
-1617;Men;1001;42702877;Solingen Volleys
-1617;Men;1002;42703930;Berlin Recycling Volleys
-1617;Men;1004;42704012;SWD Powervolleys Dueren
-1617;Men;1008;42703848;Netzhoppers SolWo Koenigspark KW
-1617;Men;1009;42703875;SVG Lueneburg
-1617;Men;1010;42703949;TSV Herrsching
-1617;Men;1011;42703893;TV Ingersoll Buehl
-1617;Men;1012;42703979;TV Rottenburg
-1617;Men;1013;42703910;United Volleys RheinMain
-1617;Men;1015;42702839;VCO Berlin
-1617;Men;1016;42703965;VfB Friedrichshafen
-1718;Men;1001;58915731;Bergische Volleys
-1718;Men;1002;58915837;Berlin Recycling Volleys
-1718;Men;1004;58915703;SWD Powervolleys Dueren
-1718;Men;1006;58935033;Hypo Tirol AlpenVolleys Haching
-1718;Men;1008;58915664;Netzhoppers SolWo Koenigspark KW
-1718;Men;1009;58915858;SVG Lueneburg
-1718;Men;1010;58915758;TSV Herrsching
-1718;Men;1011;58915816;Volleyball Bisons Buehl
-1718;Men;1012;58915776;TV Rottenburg
-1718;Men;1013;58915680;United Volleys RheinMain
-1718;Men;1016;58915741;VfB Friedrichshafen
-1314;Women;2001;167288;Allianz MTV Stuttgart
-1314;Women;2002;167379;Dresdner SC
-1314;Women;2003;167311;Koepenicker SC
-1314;Women;2004;167476;Ladies in Black Aachen
-1314;Women;2005;167527;Rote Raben Vilsbiburg
-1314;Women;2006;167426;SC Potsdam
-1314;Women;2007;167359;SSC Schwerin
-1314;Women;2008;167499;USC Muenster
-1314;Women;2009;167402;VC Wiesbaden
-1314;Women;2010;167553;VT Aurubis Hamburg
-1314;Women;2011;167333;Volleystars Thueringen
-1415;Women;2001;8750743;Allianz MTV Stuttgart
-1415;Women;2002;8750769;Dresdner SC
-1415;Women;2003;8750688;Koepenicker SC
-1415;Women;2004;8750784;Ladies in Black Aachen
-1415;Women;2005;8750801;Rote Raben Vilsbiburg
-1415;Women;2006;8750668;SC Potsdam
-1415;Women;2007;8750756;SSC Schwerin
-1415;Women;2008;8750706;USC Muenster
-1415;Women;2009;8750650;VC Wiesbaden
-1415;Women;2010;8750727;VT Aurubis Hamburg
-1415;Women;2011;8750818;Volleystars Thueringen
-1415;Women;2012;8750285;VCO Berlin
-1516;Women;2001;21637813;Allianz MTV Stuttgart
-1516;Women;2002;21637780;Dresdner SC
-1516;Women;2003;21637692;Koepenicker SC
-1516;Women;2004;21637796;Ladies in Black Aachen
-1516;Women;2005;21637710;Rote Raben Vilsbiburg
-1516;Women;2006;21637729;SC Potsdam
-1516;Women;2007;21637767;SSC Schwerin
-1516;Women;2008;21637650;USC Muenster
-1516;Women;2009;21637749;VC Wiesbaden
-1516;Women;2010;21637618;VT Aurubis Hamburg
-1516;Women;2011;21637676;Volleystars Thueringen
-1516;Women;2012;21637632;VCO Berlin
-1516;Women;2013;21637305;Nawaro Straubing
-1617;Women;2001;42703593;Allianz MTV Stuttgart
-1617;Women;2002;42703609;Dresdner SC
-1617;Women;2003;42703736;Koepenicker SC
-1617;Women;2004;42703717;Ladies in Black Aachen
-1617;Women;2005;42703766;Rote Raben Vilsbiburg
-1617;Women;2006;42703697;SC Potsdam
-1617;Women;2007;42703574;SSC Schwerin
-1617;Women;2008;42703641;USC Muenster
-1617;Women;2009;42703785;VC Wiesbaden
-1617;Women;2011;42703667;Volleystars Thueringen
-1617;Women;2012;42703625;VCO Berlin
-1617;Women;2014;42703373;Schwarz-Weiss Erfurt
-1718;Women;2001;58915406;Allianz MTV Stuttgart
-1718;Women;2002;58915580;Dresdner SC
-1718;Women;2004;58915516;Ladies in Black Aachen
-1718;Women;2005;58915556;Rote Raben Vilsbiburg
-1718;Women;2006;58915384;SC Potsdam
-1718;Women;2007;58915474;SSC Schwerin
-1718;Women;2008;58915445;USC Muenster
-1718;Women;2009;58915538;VC Wiesbaden
-1718;Women;2011;58915498;Volleystars Thueringen
-1718;Women;2012;58915365;VCO Berlin
-1718;Women;2014;58915427;Schwarz-Weiss Erfurt
+season_id;league_gender;team_id;vbl_id;team_name;gym_adress;max_spectators
+1617;Men;1001;42702877;Solingen Volleys;42719 Solingen;2300
+1718;Men;1001;58915731;Bergische Volleys;42719 Solingen;2300
+1314;Men;1002;6913420;Berlin Recycling Volleys;10437 Berlin;8533
+1415;Men;1002;8750498;Berlin Recycling Volleys;10437 Berlin;8533
+1516;Men;1002;21637416;Berlin Recycling Volleys;10437 Berlin;8533
+1617;Men;1002;42703930;Berlin Recycling Volleys;10437 Berlin;8533
+1718;Men;1002;58915837;Berlin Recycling Volleys;10437 Berlin;8533
+1819;Men;1002;69336915;Berlin Recycling Volleys;10437 Berlin;8533
+1314;Men;1003;6913335;CV Mitteldeutschland;06237 Leuna /OT Spergau;2293
+1415;Men;1003;8750585;CV Mitteldeutschland;06237 Leuna /OT Spergau;2293
+1516;Men;1003;21637485;CV Mitteldeutschland;06237 Leuna /OT Spergau;2293
+1314;Men;1004;6913306;Evivo Dueren;52349 Dueren;2250
+1415;Men;1004;8750611;SWD Powervolleys Dueren;52349 Dueren;2250
+1516;Men;1004;21637531;SWD Powervolleys Dueren;52349 Dueren;2250
+1617;Men;1004;42704012;SWD Powervolleys Dueren;52349 Dueren;2250
+1718;Men;1004;58915703;SWD Powervolleys Dueren;52349 Dueren;2250
+1819;Men;1004;69336967;SWD Powervolleys Dueren;52349 Dueren;2250
+1314;Men;1005;6913323;Generalli Haching;82008 Unterhaching;1512
+1718;Men;1006;58935033;Hypo Tirol AlpenVolleys Haching;82008 Unterhaching;1512
+1819;Men;1006;69336938;Hypo Tirol AlpenVolleys Haching;82008 Unterhaching;1512
+1314;Men;1007;6913439;Moerser SC;47445 Moers;1200
+1415;Men;1008;8750099;Netzhoppers KW-Bestensee;15741 Bestensee;1000
+1516;Men;1008;21637456;Netzhoppers KW-Bestensee;15741 Bestensee;1000
+1617;Men;1008;42703848;Netzhoppers SolWo Koenigspark KW;15741 Bestensee;1000
+1718;Men;1008;58915664;Netzhoppers SolWo Koenigspark KW;15741 Bestensee;1000
+1819;Men;1008;69337041;Netzhoppers SolWo Koenigspark KW;15741 Bestensee;1000
+1415;Men;1009;8750048;SVG Lueneburg;21391 Reppenstedt;800
+1516;Men;1009;21637553;SVG Lueneburg;21391 Reppenstedt;800
+1617;Men;1009;42703875;SVG Lueneburg;21391 Reppenstedt;800
+1718;Men;1009;58915858;SVG Lueneburg;21391 Reppenstedt;800
+1819;Men;1009;69336892;SVG Lueneburg;21391 Reppenstedt;800
+1415;Men;1010;8749876;TSV Herrsching;82211 Herrsching;1010
+1516;Men;1010;21637399;TSV Herrsching;82211 Herrsching;1010
+1617;Men;1010;42703949;TSV Herrsching;82211 Herrsching;1010
+1718;Men;1010;58915758;TSV Herrsching;82211 Herrsching;1010
+1819;Men;1010;69336995;TSV Herrsching;82211 Herrsching;1010
+1314;Men;1011;6913349;TV Ingersoll Buehl;77815 Buehl;1714
+1415;Men;1011;8750571;TV Ingersoll Buehl;77815 Buehl;1714
+1516;Men;1011;21637515;TV Ingersoll Buehl;77815 Buehl;1714
+1617;Men;1011;42703893;TV Ingersoll Buehl;77815 Buehl;1714
+1718;Men;1011;58915816;Volleyball Bisons Buehl;77815 Buehl;1714
+1819;Men;1011;69337058;Volleyball Bisons Buehl;77815 Buehl;1714
+1314;Men;1012;6913405;TV Rottenburg;72072 Tuebingen;2876
+1415;Men;1012;8750514;TV Rottenburg;72072 Tuebingen;2876
+1516;Men;1012;21637469;TV Rottenburg;72072 Tuebingen;2876
+1617;Men;1012;42703979;TV Rottenburg;72072 Tuebingen;2876
+1718;Men;1012;58915776;TV Rottenburg;72072 Tuebingen;2876
+1819;Men;1012;69337015;TV Rottenburg;72072 Tuebingen;2876
+1516;Men;1013;21636681;United Volleys RheinMain;65929 Frankfurt am Main;5022
+1617;Men;1013;42703910;United Volleys RheinMain;65929 Frankfurt am Main;5022
+1718;Men;1013;58915680;United Volleys RheinMain;65929 Frankfurt am Main;5022
+1819;Men;1013;69337110;United Volleys Frankfurt;65929 Frankfurt am Main;5022
+1314;Men;1014;6913376;VC Dresden;01277 Dresden;
+1415;Men;1015;8749935;VCO Berlin;13053 Berlin;1800
+1617;Men;1015;42702839;VCO Berlin;13053 Berlin;1800
+1819;Men;1015;69340414;VCO Berlin;13053 Berlin;1800
+1314;Men;1016;6913363;VfB Friedrichshafen;88045 Friedrichshafen;3822
+1415;Men;1016;8750558;VfB Friedrichshafen;88045 Friedrichshafen;3822
+1516;Men;1016;21637570;VfB Friedrichshafen;88045 Friedrichshafen;3822
+1617;Men;1016;42703965;VfB Friedrichshafen;88045 Friedrichshafen;3822
+1718;Men;1016;58915741;VfB Friedrichshafen;88045 Friedrichshafen;3822
+1819;Men;1016;69337092;VfB Friedrichshafen;88045 Friedrichshafen;3822
+1314;Men;1018;6913391;VSG Coburg/Grub;96450 Coburg;3530
+1415;Men;1018;8750529;VSG Coburg/Grub;96450 Coburg;3530
+1516;Men;1018;21637499;VSG Coburg/Grub;96450 Coburg;3530
+1819;Men;1019;69340412;Helios Grizzlys Giesen;31137 Hildesheim;2408
+1314;Women;2001;167288;Allianz MTV Stuttgart;70372 Stuttgart;2039
+1415;Women;2001;8750743;Allianz MTV Stuttgart;70372 Stuttgart;2039
+1516;Women;2001;21637813;Allianz MTV Stuttgart;70372 Stuttgart;2039
+1617;Women;2001;42703593;Allianz MTV Stuttgart;70372 Stuttgart;2039
+1718;Women;2001;58915406;Allianz MTV Stuttgart;70372 Stuttgart;2039
+1819;Women;2001;69336661;Allianz MTV Stuttgart;70372 Stuttgart;2039
+1314;Women;2002;167379;Dresdner SC;01277 Dresden;3000
+1415;Women;2002;8750769;Dresdner SC;01277 Dresden;3000
+1516;Women;2002;21637780;Dresdner SC;01277 Dresden;3000
+1617;Women;2002;42703609;Dresdner SC;01277 Dresden;3000
+1718;Women;2002;58915580;Dresdner SC;01277 Dresden;3000
+1819;Women;2002;69336588;Dresdner SC;01277 Dresden;3000
+1314;Women;2003;167311;Koepenicker SC;12555 Berlin;1400
+1415;Women;2003;8750688;Koepenicker SC;12555 Berlin;1400
+1516;Women;2003;21637692;Koepenicker SC;12555 Berlin;1400
+1617;Women;2003;42703736;Koepenicker SC;12555 Berlin;1400
+1314;Women;2004;167476;Ladies in Black Aachen;52068 Aachen;1268
+1415;Women;2004;8750784;Ladies in Black Aachen;52068 Aachen;1268
+1516;Women;2004;21637796;Ladies in Black Aachen;52068 Aachen;1268
+1617;Women;2004;42703717;Ladies in Black Aachen;52068 Aachen;1268
+1718;Women;2004;58915516;Ladies in Black Aachen;52068 Aachen;1268
+1819;Women;2004;69336562;Ladies in Black Aachen;52068 Aachen;1268
+1314;Women;2005;167527;Rote Raben Vilsbiburg;84137 Vilsbiburg;2000
+1415;Women;2005;8750801;Rote Raben Vilsbiburg;84137 Vilsbiburg;2000
+1516;Women;2005;21637710;Rote Raben Vilsbiburg;84137 Vilsbiburg;2000
+1617;Women;2005;42703766;Rote Raben Vilsbiburg;84137 Vilsbiburg;2000
+1718;Women;2005;58915556;Rote Raben Vilsbiburg;84137 Vilsbiburg;2000
+1819;Women;2005;69336617;Rote Raben Vilsbiburg;84137 Vilsbiburg;2000
+1314;Women;2006;167426;SC Potsdam;14471 Potsdam;2048
+1415;Women;2006;8750668;SC Potsdam;14471 Potsdam;2048
+1516;Women;2006;21637729;SC Potsdam;14471 Potsdam;2048
+1617;Women;2006;42703697;SC Potsdam;14471 Potsdam;2048
+1718;Women;2006;58915384;SC Potsdam;14471 Potsdam;2048
+1819;Women;2006;69336541;SC Potsdam;14471 Potsdam;2048
+1314;Women;2007;167359;SSC Schwerin;19059 Schwerin;1914
+1415;Women;2007;8750756;SSC Schwerin;19059 Schwerin;1914
+1516;Women;2007;21637767;SSC Schwerin;19059 Schwerin;1914
+1617;Women;2007;42703574;SSC Schwerin;19059 Schwerin;1914
+1718;Women;2007;58915474;SSC Schwerin;19059 Schwerin;1914
+1819;Women;2007;69336705;SSC Schwerin;19059 Schwerin;1914
+1314;Women;2008;167499;USC Muenster;48153 Muenster;3300
+1415;Women;2008;8750706;USC Muenster;48153 Muenster;3300
+1516;Women;2008;21637650;USC Muenster;48153 Muenster;3300
+1617;Women;2008;42703641;USC Muenster;48153 Muenster;3300
+1718;Women;2008;58915445;USC Muenster;48153 Muenster;3300
+1819;Women;2008;69336780;USC Muenster;48153 Muenster;3300
+1314;Women;2009;167402;VC Wiesbaden;65187 Wiesbaden;1200
+1415;Women;2009;8750650;VC Wiesbaden;65185 Wiesbaden;2105
+1516;Women;2009;21637749;VC Wiesbaden;65185 Wiesbaden;2105
+1617;Women;2009;42703785;VC Wiesbaden;65185 Wiesbaden;2105
+1718;Women;2009;58915538;VC Wiesbaden;65185 Wiesbaden;2105
+1819;Women;2009;69336753;VC Wiesbaden;65185 Wiesbaden;2105
+1314;Women;2010;167553;VT Aurubis Hamburg;21147 Hamburg;1778
+1415;Women;2010;8750727;VT Aurubis Hamburg;21147 Hamburg;1778
+1516;Women;2010;21637618;VT Aurubis Hamburg;21147 Hamburg;1778
+1314;Women;2011;167333;Volleystars Thueringen;98527 Suhl;2016
+1415;Women;2011;8750818;Volleystars Thueringen;98527 Suhl;2016
+1516;Women;2011;21637676;Volleystars Thueringen;98527 Suhl;2016
+1617;Women;2011;42703667;Volleystars Thueringen;98527 Suhl;2016
+1718;Women;2011;58915498;Volleystars Thueringen;98527 Suhl;2016
+1819;Women;2011;69336688;Volleystars Thueringen;98527 Suhl;2016
+1415;Women;2012;8750285;VCO Berlin;13053 Berlin;1800
+1516;Women;2012;21637632;VCO Berlin;13053 Berlin;1800
+1617;Women;2012;42703625;VCO Berlin;13053 Berlin;1800
+1718;Women;2012;58915365;VCO Berlin;13053 Berlin;1800
+1819;Women;2012;69336642;VCO Berlin;13053 Berlin;1800
+1516;Women;2013;21637305;Nawaro Straubing;94315 Straubing;1006
+1819;Women;2013;69338531;Nawaro Straubing;94315 Straubing;1006
+1617;Women;2014;42703373;Schwarz-Weiss Erfurt;99089 Erfurt;1536
+1718;Women;2014;58915427;Schwarz-Weiss Erfurt;99089 Erfurt;1536
+1819;Women;2014;69336735;Schwarz-Weiss Erfurt;99089 Erfurt;1536

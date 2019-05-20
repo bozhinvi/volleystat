@@ -40,10 +40,10 @@
     df_teams <- rbind(df_teams, tmp, stringsAsFactors = FALSE)
 
     rm(tmp)
+
   }
 
   df_teams <- as_tibble(df_teams)
-
 
 #### Select relevant columns and join teams and remove vbl.id #### #### #### #### #### #### #### #### #### #### #### ###
 
@@ -102,7 +102,6 @@
     df_teams$firstname <- gsub("ë", "e",   df_teams$firstname)
     df_teams$firstname <- gsub("", "s",   df_teams$firstname)
 
-
   # Gender
 
     df_teams[df_teams$gender == "weiblich",]$gender <- "female"
@@ -111,6 +110,8 @@
     df_teams$gender <- factor(x = df_teams$gender, levels = c("female", "male"))
 
   # Birthdate
+
+    df_teams <- df_teams %>% mutate(birthdate = ifelse(birthdate != "01.01.2018", birthdate, NA))
 
     df_teams$birthdate <- as.Date(df_teams$birthdate, format = "%d.%m.%Y")
 
@@ -169,6 +170,18 @@
     # Missing height
 
      df_teams %>% filter(role != "Staff" & is.na(height))
+
+     # Missing height for Players
+
+     # Iane Henke
+     df_teams[(is.na(df_teams$height) == TRUE) &
+              (df_teams$lastname == "Henke") &
+              (df_teams$team_id == 2001),]$height <- 185
+
+     # Marie Haenle
+     df_teams[(is.na(df_teams$height) == TRUE) &
+                (df_teams$lastname == "Haenle") &
+                (df_teams$team_id == 2001),]$height <- 185
 
      # Missing height belongs to staff according to web search
      df_teams[(is.na(df_teams$height) == TRUE) & (df_teams$role != "Staff"),]$role <- "Staff"
@@ -281,7 +294,7 @@
      # select(match.id, team.id, shirt.number, player.name) %>%
      # filter(shirt.number == 10 & team.id == 1014) %>% select(player.name) %>% table()
 
-     df_teams[(df_teams$lastname == "Kroß"     & df_teams$season_id == "1314"),]$player_id <- 100
+     df_teams[(df_teams$lastname == "Kross"     & df_teams$season_id == "1314"),]$player_id <- 100
      df_teams[(df_teams$lastname == "Pinheiro" & df_teams$season_id == "1314"),]$player_id <- 101
 
   #### Season 2014/2015 MEN
@@ -290,7 +303,7 @@
      # select(match.id, team.id, shirt.number, player.name) %>%
      # filter(shirt.number == 2 & team.id == 1016) %>% select(player.name) %>% table()
 
-     df_teams[(df_teams$lastname == "Günthör" &
+     df_teams[(df_teams$lastname == "Guenthoer" &
                df_teams$firstname == "Jakob"  &
                df_teams$season_id == "1415"),]$player_id             <- 100
 
@@ -302,7 +315,7 @@
 
      # All players are neverfielded in this season.
 
-     df_teams[(df_teams$lastname == "Grütze"  &
+     df_teams[(df_teams$lastname == "Gruetze"  &
                df_teams$team_id == 2002       &
                df_teams$season_id == "1314"   &
                df_teams$league_gender == "Women"),]$player_id <- 100
@@ -403,7 +416,7 @@
      # select(match.id, team.id, shirt.number, player.name) %>%
      # filter(shirt.number == 1 & team.id == 2002) %>% select(player.name) %>% table()
 
-     df_teams[(df_teams$lastname == "Kömmling"  &
+     df_teams[(df_teams$firstname == "Elena"  &
                df_teams$team_id == 2002         &
                df_teams$season_id == "1617"     &
                df_teams$league_gender == "Women"),]$player_id <- 100
@@ -437,7 +450,7 @@
      # select(match.id, team.id, shirt.number, player.name) %>%
      # filter(shirt.number == 17 & team.id == 2002) %>% select(player.name) %>% table()
 
-     df_teams[(df_teams$lastname == "Kömmling"   &
+     df_teams[(df_teams$lastname == "Koemmling"   &
                df_teams$team_id == 2002         &
                df_teams$season_id == "1718"     &
                df_teams$league_gender == "Women"),]$player_id <- 100
@@ -471,6 +484,30 @@
                df_teams$season_id == "1718"     &
                df_teams$league_gender == "Women"),]$player_id <- 100
 
+     # read_csv("./data-raw/Matchreports/MATCHSTAT_WOMEN_1819.csv") %>%
+     # select(match_id, team_id, shirt_number, player_name) %>%
+     # filter(shirt_number == 3 & team_id == 2002) %>% select(player_name) %>% table()
+
+     df_teams[(df_teams$lastname == "Lieb"  &
+                 df_teams$team_id == 2002         &
+                 df_teams$season_id == "1819"     &
+                 df_teams$league_gender == "Women"),]$player_id <- 100
+
+     df_teams[(df_teams$lastname == "Nestler"  &
+                 df_teams$team_id == 2002         &
+                 df_teams$season_id == "1819"     &
+                 df_teams$league_gender == "Women"),]$player_id <- 101
+
+     df_teams[(df_teams$lastname == "Scholz"  &
+                 df_teams$team_id == 2002         &
+                 df_teams$season_id == "1819"     &
+                 df_teams$league_gender == "Women"),]$player_id <- 102
+
+     df_teams[(df_teams$lastname == "Strubbe"  &
+                 df_teams$team_id == 2002         &
+                 df_teams$season_id == "1819"     &
+                 df_teams$league_gender == "Women"),]$player_id <- 103
+
      # Remove tibble with duplicates
 
      rm(duplicate_shirts)
@@ -487,7 +524,9 @@
             lastname = iconv(lastname, to = "utf8"))
 
 
-     save(staff, file = "./data/staff.rda")
+     #save(staff, file = "./data/staff.rda")
+     devtools::use_data(staff, staff, overwrite = TRUE)
+
 
      players <- df_teams[df_teams$role != "Staff",] %>%
      select(-role, league_gender, season_id, team_id, team_name,
@@ -498,4 +537,5 @@
      mutate(firstname = iconv(firstname, to = "utf8"),
             lastname = iconv(lastname, to = "utf8"))
 
-     save(players, file = "./data/players.rda")
+     #save(players, file = "./data/players.rda")
+     devtools::use_data(players, players, overwrite = TRUE)

@@ -211,6 +211,10 @@ export_teamname <- function(x) {
 
           row_num <- which(names(x) == "Voto") - 1
 
+        } else if (any(str_detect(names(x), "Eva")) == TRUE) {
+
+          row_num <- which(names(x) == "Eva") - 1
+
         } else {
 
           row_num <- NA

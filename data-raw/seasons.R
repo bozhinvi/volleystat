@@ -12,8 +12,8 @@
 
 #### Download *.csv season files from VBL website #### #### #### #### #### #### #### #### #### #### #### #### #### #####
 
-  vbl_id <- df_seasons$vbl_id
-
+  # vbl_id <- df_seasons$vbl_id
+  #
   # for (id in 1:length(vbl_id)){
   #
   #   try(download.file(
@@ -245,7 +245,8 @@
                 team_id, team_name, set_won)                                        %>%
          mutate(match = factor(match))
 
-         save(matches, file = "./data/matches.rda")
+         #save(matches, file = "./data/matches.rda")
+         devtools::use_data(matches, matches, overwrite = TRUE)
 
 #### Set level data #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #####
 
@@ -277,4 +278,5 @@
            set, set_duration, pt_set) %>%
     filter(!is.na(pt_set))
 
-    save(sets, file = "./data/sets.rda")
+    #save(sets, file = "./data/sets.rda")
+    devtools::use_data(sets, sets, overwrite = TRUE)
