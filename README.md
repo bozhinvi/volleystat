@@ -4,7 +4,7 @@
 # volleystat
 
 This packages contains detailed statistics on volleyball matches on team
-and player level for the seasons 2013/14 to 2017/2018 in Germany. It
+and player level for the seasons 2013/14 to 2018/2019 in Germany. It
 provides the following data tables.
 
   - `matches` contains information on match level for home and away
